@@ -1,0 +1,76 @@
+{
+  "voices": {
+    "sweet_tea_male": {
+      "id": "sweet_tea_male",
+      "name": "Sweet Tea",
+      "gender": "male",
+      "language": "en-US",
+      "styles": {
+        "american_drama_tension": {
+          "style_id": "american_drama_tension",
+          "description": "American drama with tension - perfect for dramatic narration",
+          "pace": "1.0",
+          "pitch_shift": "0.0"
+        },
+        "conversational": {
+          "style_id": "conversational",
+          "description": "Casual, conversational tone",
+          "pace": "0.95",
+          "pitch_shift": "-0.05"
+        },
+        "news": {
+          "style_id": "news",
+          "description": "Professional news anchor style",
+          "pace": "1.05",
+          "pitch_shift": "0.1"
+        }
+      }
+    },
+    "other_voices": {
+      "id": "other_voice",
+      "name": "To be documented",
+      "note": "Add additional voice configurations as needed"
+    }
+  },
+  "presets": {
+    "sunset": {
+      "name": "Sunset",
+      "file": "./07_Davinci Resolve LUTs_Sunset.cube",
+      "description": "Warm sunset color grading preset",
+      "color_temp": "warm",
+      "saturation_boost": "1.15",
+      "brightness_boost": "1.05",
+      "contrast_boost": "1.1"
+    },
+    "cinematic": {
+      "name": "Cinematic (Placeholder)",
+      "description": "Professional cinematic look - to be added",
+      "file": null
+    },
+    "vivid": {
+      "name": "Vivid (Placeholder)",
+      "description": "High saturation vivid colors - to be added",
+      "file": null
+    }
+  },
+  "recommended_settings": {
+    "for_drama": {
+      "voice": "sweet_tea_male",
+      "style": "american_drama_tension",
+      "preset": "sunset",
+      "description": "Dramatic narration with warm color grading"
+    },
+    "for_education": {
+      "voice": "sweet_tea_male",
+      "style": "news",
+      "preset": "cinematic",
+      "description": "Professional educational content"
+    },
+    "for_entertainment": {
+      "voice": "sweet_tea_male",
+      "style": "conversational",
+      "preset": "vivid",
+      "description": "Casual entertainment with vibrant colors"
+    }
+  }
+}

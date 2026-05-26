@@ -1,0 +1,11 @@
+scenedetect[opencv]>=0.6.1
+librosa>=0.10.0
+pyrubberband>=0.3.0
+openai-whisper>=20231117
+faster-whisper>=0.10.0
+pydub>=0.25.1
+pillow>=10.0.0
+numpy>=1.24.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+dashscope>=1.16.0
